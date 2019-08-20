@@ -5,14 +5,16 @@ namespace For
     {
         static void Main(string[] args)
         {
-            int n, m;
+            int n, m, b;
             //hia
-            Console.WriteLine("Imprime numeros del x hasta y de -1");
+            Console.WriteLine("Imprime numeros del x hasta y");
             Console.WriteLine("cuando vale x?");
             n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("cuando vale m?");
             m = Convert.ToInt32(Console.ReadLine());
-            for (int i = n; i > m; i--)
+            Console.WriteLine("de cuanto en cuanto");
+            b = Convert.ToInt32(Console.ReadLine());
+            for (int i = n; i >m; i-=b)
             {
                 Console.WriteLine("i = " + i);
             }

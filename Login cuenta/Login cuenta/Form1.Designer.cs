@@ -28,34 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.correo = new System.Windows.Forms.TextBox();
             this.contrasena = new System.Windows.Forms.TextBox();
             this.boton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Facebook = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Verdana", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label1.Location = new System.Drawing.Point(0, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(217, 45);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Facebook";
-            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label2.Location = new System.Drawing.Point(223, 21);
+            this.label2.Location = new System.Drawing.Point(12, 112);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(176, 18);
             this.label2.TabIndex = 1;
@@ -67,7 +55,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Cornsilk;
-            this.label3.Location = new System.Drawing.Point(629, 21);
+            this.label3.Location = new System.Drawing.Point(12, 146);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(116, 18);
             this.label3.TabIndex = 2;
@@ -75,7 +63,7 @@
             // 
             // correo
             // 
-            this.correo.Location = new System.Drawing.Point(405, 22);
+            this.correo.Location = new System.Drawing.Point(194, 110);
             this.correo.Name = "correo";
             this.correo.Size = new System.Drawing.Size(209, 20);
             this.correo.TabIndex = 3;
@@ -83,7 +71,7 @@
             // 
             // contrasena
             // 
-            this.contrasena.Location = new System.Drawing.Point(751, 19);
+            this.contrasena.Location = new System.Drawing.Point(194, 144);
             this.contrasena.Name = "contrasena";
             this.contrasena.Size = new System.Drawing.Size(209, 20);
             this.contrasena.TabIndex = 4;
@@ -93,7 +81,7 @@
             // 
             this.boton.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.boton.Image = global::Login_cuenta.Properties.Resources.botton;
-            this.boton.Location = new System.Drawing.Point(509, 299);
+            this.boton.Location = new System.Drawing.Point(41, 240);
             this.boton.Name = "boton";
             this.boton.Size = new System.Drawing.Size(326, 71);
             this.boton.TabIndex = 5;
@@ -104,25 +92,37 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.pictureBox1.Image = global::Login_cuenta.Properties.Resources.f1;
-            this.pictureBox1.Location = new System.Drawing.Point(8, 141);
+            this.pictureBox1.Location = new System.Drawing.Point(435, 46);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(474, 229);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // Facebook
+            // 
+            this.Facebook.AutoSize = true;
+            this.Facebook.Font = new System.Drawing.Font("Verdana", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Facebook.ForeColor = System.Drawing.Color.Cornsilk;
+            this.Facebook.Location = new System.Drawing.Point(87, 22);
+            this.Facebook.Name = "Facebook";
+            this.Facebook.Size = new System.Drawing.Size(280, 59);
+            this.Facebook.TabIndex = 7;
+            this.Facebook.Text = "Facebook";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(1008, 450);
+            this.BackColor = System.Drawing.Color.MidnightBlue;
+            this.BackgroundImage = global::Login_cuenta.Properties.Resources.images;
+            this.ClientSize = new System.Drawing.Size(921, 355);
+            this.Controls.Add(this.Facebook);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.boton);
             this.Controls.Add(this.contrasena);
             this.Controls.Add(this.correo);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Cartel1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -133,14 +133,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox correo;
         private System.Windows.Forms.TextBox contrasena;
         private System.Windows.Forms.Button boton;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label Facebook;
     }
 }
 

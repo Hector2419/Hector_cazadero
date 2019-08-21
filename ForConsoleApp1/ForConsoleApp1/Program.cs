@@ -14,9 +14,19 @@ namespace For
             m = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("de cuanto en cuanto");
             b = Convert.ToInt32(Console.ReadLine());
-            for (int i = n; i >m; i-=b)
+           if (n>m)
             {
-                Console.WriteLine("i = " + i);
+                for (int i = n; i > m; i -= b)
+                {
+                    Console.WriteLine("i = " + i);
+                }
+            }
+            else
+            {
+                for (int i = n; i < m; i += b)
+                {
+                    Console.WriteLine("i = " + i);
+                }
             }
         }
     }

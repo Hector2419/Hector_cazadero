@@ -35,6 +35,7 @@
             this.boton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Facebook = new System.Windows.Forms.Label();
+            this.salir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,6 +110,16 @@
             this.Facebook.TabIndex = 7;
             this.Facebook.Text = "Facebook";
             // 
+            // salir
+            // 
+            this.salir.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.salir.Location = new System.Drawing.Point(736, 293);
+            this.salir.Name = "salir";
+            this.salir.Size = new System.Drawing.Size(156, 40);
+            this.salir.TabIndex = 8;
+            this.salir.Text = "SALIR";
+            this.salir.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -116,6 +127,7 @@
             this.BackColor = System.Drawing.Color.MidnightBlue;
             this.BackgroundImage = global::Login_cuenta.Properties.Resources.images;
             this.ClientSize = new System.Drawing.Size(921, 355);
+            this.Controls.Add(this.salir);
             this.Controls.Add(this.Facebook);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.boton);
@@ -140,6 +152,7 @@
         private System.Windows.Forms.Button boton;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label Facebook;
+        private System.Windows.Forms.Button salir;
     }
 }
 

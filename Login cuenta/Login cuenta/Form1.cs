@@ -39,6 +39,7 @@ namespace Login_cuenta
             if (co == "juancho"&& cn == "123frijoles")
             {
                 MessageBox.Show("Accediste con exito!");
+                this.Close();
             }
             else
             {
@@ -53,7 +54,12 @@ namespace Login_cuenta
 
         private void BackgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
+            
+        }
 
+        private void Salir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
   

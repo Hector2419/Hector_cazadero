@@ -64,9 +64,10 @@
             // 
             // correo
             // 
+            this.correo.Font = new System.Drawing.Font("Verdana", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.correo.Location = new System.Drawing.Point(194, 110);
             this.correo.Name = "correo";
-            this.correo.Size = new System.Drawing.Size(209, 20);
+            this.correo.Size = new System.Drawing.Size(209, 23);
             this.correo.TabIndex = 3;
             this.correo.TextChanged += new System.EventHandler(this.Correo_TextChanged);
             // 
@@ -113,12 +114,13 @@
             // salir
             // 
             this.salir.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.salir.Location = new System.Drawing.Point(736, 293);
+            this.salir.Location = new System.Drawing.Point(687, 291);
             this.salir.Name = "salir";
             this.salir.Size = new System.Drawing.Size(156, 40);
-            this.salir.TabIndex = 8;
+            this.salir.TabIndex = 9;
             this.salir.Text = "SALIR";
             this.salir.UseVisualStyleBackColor = true;
+            this.salir.Click += new System.EventHandler(this.Salir_Click);
             // 
             // Form1
             // 

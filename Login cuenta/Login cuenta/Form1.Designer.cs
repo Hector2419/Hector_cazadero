@@ -83,7 +83,7 @@
             // 
             // contrasena
             // 
-            this.contrasena.Location = new System.Drawing.Point(741, 21);
+            this.contrasena.Location = new System.Drawing.Point(751, 19);
             this.contrasena.Name = "contrasena";
             this.contrasena.Size = new System.Drawing.Size(209, 20);
             this.contrasena.TabIndex = 4;
@@ -93,7 +93,7 @@
             // 
             this.boton.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.boton.Image = global::Login_cuenta.Properties.Resources.botton;
-            this.boton.Location = new System.Drawing.Point(662, 57);
+            this.boton.Location = new System.Drawing.Point(509, 299);
             this.boton.Name = "boton";
             this.boton.Size = new System.Drawing.Size(326, 71);
             this.boton.TabIndex = 5;
@@ -102,8 +102,9 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.pictureBox1.Image = global::Login_cuenta.Properties.Resources.f1;
-            this.pictureBox1.Location = new System.Drawing.Point(8, 57);
+            this.pictureBox1.Location = new System.Drawing.Point(8, 141);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(474, 229);
             this.pictureBox1.TabIndex = 6;
@@ -113,8 +114,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.CornflowerBlue;
-            this.ClientSize = new System.Drawing.Size(1000, 650);
+            this.BackColor = System.Drawing.SystemColors.Highlight;
+            this.ClientSize = new System.Drawing.Size(1008, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.boton);
             this.Controls.Add(this.contrasena);

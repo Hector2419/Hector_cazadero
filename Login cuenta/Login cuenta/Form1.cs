@@ -50,5 +50,10 @@ namespace Login_cuenta
         {
 
         }
+
+        private void BackgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
     }
 }
